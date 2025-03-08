@@ -1,5 +1,29 @@
 {
     "files.associations": {
-        "esp_log.h": "c"
+        "esp_log.h": "c",
+        "esp_gap_ble_api.h": "c",
+        "esp_bt_defs.h": "c",
+        "event_groups.h": "c",
+        "esp_bt.h": "c",
+        "nvs_flash.h": "c",
+        "inttypes.h": "c",
+        "task.h": "c",
+        "optional": "c",
+        "system_error": "c",
+        "array": "c",
+        "functional": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "freertos.h": "c",
+        "gpio.h": "c",
+        "basic.h": "c",
+        "bit": "c",
+        "compare": "c",
+        "cstddef": "c",
+        "string": "c",
+        "limits": "c",
+        "memory": "c",
+        "new": "c"
     }
 }
