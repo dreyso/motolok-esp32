@@ -24,6 +24,7 @@
         "string": "c",
         "limits": "c",
         "memory": "c",
-        "new": "c"
+        "new": "c",
+        "cstdint": "c"
     }
 }

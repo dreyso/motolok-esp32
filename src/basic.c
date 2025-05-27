@@ -43,7 +43,7 @@ static const esp_gatts_attr_db_t basic_gatt_db[BASIC_IDX_NB] =
 
     // Reset Characteristic Value (Write Only Encrypted)
     [BASIC_IDX_RESET_VAL] =
-    {{ESP_GATT_AUTO_RSP}, {ESP_UUID_LEN_128, (uint8_t *)&reset_uuid, ESP_GATT_PERM_WRITE_ENCRYPTED,
+    {{ESP_GATT_AUTO_RSP}, {ESP_UUID_LEN_128, (uint8_t *)&reset_uuid, ESP_GATT_PERM_WRITE,
     sizeof(uint8_t), sizeof(reset), (uint8_t *)reset}},
 };
 
